@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [WorkWithElements.TestAlerts]" verbose="0">
+  <test thread-count="1" name="Default XmlTest name 69a799a5-6ec8-43da-bb08-fa0c01e66efd(failed)" verbose="0">
+    <classes>
+      <class name="WorkWithElements.TestAlerts">
+        <methods>
+          <include name="TestSendTextToAlert"/>
+          <include name="before"/>
+          <include name="TestAcceptAlert"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="TestDissmissAlert"/>
+        </methods>
+      </class> <!-- WorkWithElements.TestAlerts -->
+    </classes>
+  </test> <!-- Default XmlTest name 69a799a5-6ec8-43da-bb08-fa0c01e66efd(failed) -->
+</suite> <!-- Failed suite [WorkWithElements.TestAlerts] -->

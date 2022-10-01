@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [BankTest.TestLogin]" verbose="0">
+  <test thread-count="1" name="Default XmlTest name c7923f44-1593-4320-8a68-82f6636b1907(failed)" verbose="0">
+    <classes>
+      <class name="BankTest.TestLogin">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="testEmptyPassword"/>
+          <include name="testEmptyUserIdAndPassword"/>
+          <include name="testEmptyUserId"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- BankTest.TestLogin -->
+    </classes>
+  </test> <!-- Default XmlTest name c7923f44-1593-4320-8a68-82f6636b1907(failed) -->
+</suite> <!-- Failed suite [BankTest.TestLogin] -->

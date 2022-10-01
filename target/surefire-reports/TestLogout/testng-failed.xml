@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [TestLogout]" verbose="0">
+  <test thread-count="1" name="Default XmlTest name 8add1d90-72d7-4547-b183-42e68d68c6ef(failed)" verbose="0">
+    <classes>
+      <class name="TestLogout">
+        <methods>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- TestLogout -->
+    </classes>
+  </test> <!-- Default XmlTest name 8add1d90-72d7-4547-b183-42e68d68c6ef(failed) -->
+</suite> <!-- Failed suite [TestLogout] -->

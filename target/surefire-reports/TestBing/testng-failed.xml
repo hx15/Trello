@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [TestBing]" verbose="0">
+  <test thread-count="1" name="Default XmlTest name 39c028e7-a7aa-49b9-94d8-f0c050fa1b59(failed)" verbose="0">
+    <classes>
+      <class name="TestBing">
+        <methods>
+          <include name="testBing"/>
+        </methods>
+      </class> <!-- TestBing -->
+    </classes>
+  </test> <!-- Default XmlTest name 39c028e7-a7aa-49b9-94d8-f0c050fa1b59(failed) -->
+</suite> <!-- Failed suite [TestBing] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [ExpediaTest.TestWithDP]" verbose="0">
+  <test thread-count="1" name="Default XmlTest name d3fd773d-609a-440f-8487-0c19e581bfdf(failed)" verbose="0">
+    <classes>
+      <class name="ExpediaTest.TestWithDP">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="testExpediaLinks" invocation-numbers="1"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- ExpediaTest.TestWithDP -->
+    </classes>
+  </test> <!-- Default XmlTest name d3fd773d-609a-440f-8487-0c19e581bfdf(failed) -->
+</suite> <!-- Failed suite [ExpediaTest.TestWithDP] -->

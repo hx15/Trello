@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [WorkWithMouseAndKeyboard.TestCopyPaste]" verbose="0">
+  <test thread-count="1" name="Default XmlTest name 7ef2f240-dbd6-4ba1-82d7-2d66d1dd0e41(failed)" verbose="0">
+    <classes>
+      <class name="WorkWithMouseAndKeyboard.TestCopyPaste">
+        <methods>
+          <include name="testCopyPaste"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- WorkWithMouseAndKeyboard.TestCopyPaste -->
+    </classes>
+  </test> <!-- Default XmlTest name 7ef2f240-dbd6-4ba1-82d7-2d66d1dd0e41(failed) -->
+</suite> <!-- Failed suite [WorkWithMouseAndKeyboard.TestCopyPaste] -->

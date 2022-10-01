@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [TestBrowsersWithParameters]" verbose="0">
+  <test thread-count="1" name="Default XmlTest name 1c65c141-ae08-429b-af1f-ee3100705c35(failed)" verbose="0">
+    <classes>
+      <class name="TestBrowsersWithParameters">
+        <methods>
+          <include name="testBrowsers"/>
+        </methods>
+      </class> <!-- TestBrowsersWithParameters -->
+    </classes>
+  </test> <!-- Default XmlTest name 1c65c141-ae08-429b-af1f-ee3100705c35(failed) -->
+</suite> <!-- Failed suite [TestBrowsersWithParameters] -->

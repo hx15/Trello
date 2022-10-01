@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [WorkWithElements.TestWorkWithTable]" verbose="0">
+  <test thread-count="1" name="Default XmlTest name b2d960de-fc51-4a71-ad86-596a0dd19215(failed)" verbose="0">
+    <classes>
+      <class name="WorkWithElements.TestWorkWithTable">
+        <methods>
+          <include name="workWithTable"/>
+        </methods>
+      </class> <!-- WorkWithElements.TestWorkWithTable -->
+    </classes>
+  </test> <!-- Default XmlTest name b2d960de-fc51-4a71-ad86-596a0dd19215(failed) -->
+</suite> <!-- Failed suite [WorkWithElements.TestWorkWithTable] -->

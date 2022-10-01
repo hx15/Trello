@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [BankTest.TestMenus]" verbose="0">
+  <test thread-count="1" name="Default XmlTest name 57ef5b74-2e47-444d-8ab2-91f4d981862e(failed)" verbose="0">
+    <classes>
+      <class name="BankTest.TestMenus">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="testMenu"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- BankTest.TestMenus -->
+    </classes>
+  </test> <!-- Default XmlTest name 57ef5b74-2e47-444d-8ab2-91f4d981862e(failed) -->
+</suite> <!-- Failed suite [BankTest.TestMenus] -->

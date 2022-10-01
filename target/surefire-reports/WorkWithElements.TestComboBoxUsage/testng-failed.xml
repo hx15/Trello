@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [WorkWithElements.TestComboBoxUsage]" verbose="0">
+  <test thread-count="1" name="Default XmlTest name ae824186-e1dd-4243-aefa-1152d94e543c(failed)" verbose="0">
+    <classes>
+      <class name="WorkWithElements.TestComboBoxUsage">
+        <methods>
+          <include name="workWithComboBox"/>
+        </methods>
+      </class> <!-- WorkWithElements.TestComboBoxUsage -->
+    </classes>
+  </test> <!-- Default XmlTest name ae824186-e1dd-4243-aefa-1152d94e543c(failed) -->
+</suite> <!-- Failed suite [WorkWithElements.TestComboBoxUsage] -->
