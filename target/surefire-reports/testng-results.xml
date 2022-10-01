@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="0" failed="2" skipped="6">
+<testng-results ignored="0" total="8" passed="0" failed="0" skipped="8">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-01T13:27:12 IDT" name="Cross Browser Test" finished-at="2022-10-01T13:27:35 IDT" duration-ms="22558">
+  <suite started-at="2022-10-01T14:26:32 IDT" name="Cross Browser Test" finished-at="2022-10-01T14:26:43 IDT" duration-ms="10798">
     <groups>
     </groups>
-    <test started-at="2022-10-01T13:27:12 IDT" name="Chrome" finished-at="2022-10-01T13:27:35 IDT" duration-ms="22334">
+    <test started-at="2022-10-01T14:26:32 IDT" name="Chrome" finished-at="2022-10-01T14:26:38 IDT" duration-ms="6488">
       <class name="Trello.FileTest">
-        <test-method is-config="true" signature="getBrowserNameFromTestNG(java.lang.String)[pri:0, instance:Trello.FileTest@2cbb3d47]" started-at="2022-10-01T13:27:12 IDT" name="getBrowserNameFromTestNG" finished-at="2022-10-01T13:27:12 IDT" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="getBrowserNameFromTestNG(java.lang.String)[pri:0, instance:Trello.FileTest@2cbb3d47]" started-at="2022-10-01T14:26:32 IDT" name="getBrowserNameFromTestNG" finished-at="2022-10-01T14:26:32 IDT" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,63 +18,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBrowserNameFromTestNG -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Trello.FileTest@2cbb3d47]" started-at="2022-10-01T13:27:12 IDT" name="setUp" finished-at="2022-10-01T13:27:22 IDT" duration-ms="9742" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="CreateCard()[pri:0, instance:Trello.FileTest@2cbb3d47]" started-at="2022-10-01T13:27:22 IDT" name="CreateCard" finished-at="2022-10-01T13:27:32 IDT" duration-ms="10091" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Trello.FileTest@2cbb3d47]" started-at="2022-10-01T14:26:32 IDT" name="setUp" finished-at="2022-10-01T14:26:38 IDT" duration-ms="6439" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href,'testworkspace')]"}
-  (Session info: chrome=105.0.5195.127)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-M0AGGPF6', ip: '192.168.168.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d68f368b2e3445eba7462ad9b3505ae9, findElement {using=xpath, value=//a[contains(@href,'testworkspace')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.29 (eff877e18f76..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64574}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64574/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d68f368b2e3445eba7462ad9b3505ae9]]>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href,'testworkspace')]"}
-  (Session info: chrome=105.0.5195.127)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-M0AGGPF6', ip: '192.168.168.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d68f368b2e3445eba7462ad9b3505ae9, findElement {using=xpath, value=//a[contains(@href,'testworkspace')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.29 (eff877e18f76..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64574}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64574/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d68f368b2e3445eba7462ad9b3505ae9
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at Pages.Trello.MainPage.goToBoardsPage(MainPage.java:28)
-at Trello.FileTest.CreateCard(FileTest.java:80)
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+at Pages.Trello.AtlassianLogin.Login(AtlassianLogin.java:19)
+at Trello.FileTest.setUp(FileTest.java:67)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:806)
 at org.testng.TestRunner.run(TestRunner.java:601)
@@ -87,39 +50,47 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CreateCard()[pri:0, instance:Trello.FileTest@2cbb3d47]" started-at="2022-10-01T14:26:38 IDT" name="CreateCard" finished-at="2022-10-01T14:26:38 IDT" duration-ms="1" status="SKIP">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+at Pages.Trello.AtlassianLogin.Login(AtlassianLogin.java:19)
+at Trello.FileTest.setUp(FileTest.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateCard -->
-        <test-method signature="DownloadFile()[pri:0, instance:Trello.FileTest@2cbb3d47]" started-at="2022-10-01T13:27:32 IDT" name="DownloadFile" finished-at="2022-10-01T13:27:32 IDT" depends-on-methods="Trello.FileTest.UploadFile" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method Trello.FileTest.DownloadFile() on instance Trello.FileTest@2cbb3d47 depends on not successfully finished methods 
-[Trello.FileTest.UploadFile() on instance Trello.FileTest@2cbb3d47]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method Trello.FileTest.DownloadFile() on instance Trello.FileTest@2cbb3d47 depends on not successfully finished methods 
-[Trello.FileTest.UploadFile() on instance Trello.FileTest@2cbb3d47]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DownloadFile -->
-        <test-method signature="UploadFile()[pri:0, instance:Trello.FileTest@2cbb3d47]" started-at="2022-10-01T13:27:32 IDT" name="UploadFile" finished-at="2022-10-01T13:27:32 IDT" depends-on-methods="Trello.FileTest.CreateCard" duration-ms="0" status="SKIP">
+        <test-method signature="UploadFile()[pri:0, instance:Trello.FileTest@2cbb3d47]" started-at="2022-10-01T14:26:38 IDT" name="UploadFile" finished-at="2022-10-01T14:26:38 IDT" depends-on-methods="Trello.FileTest.CreateCard" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method Trello.FileTest.UploadFile() on instance Trello.FileTest@2cbb3d47 depends on not successfully finished methods 
@@ -147,7 +118,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UploadFile -->
-        <test-method signature="CompareFiles()[pri:0, instance:Trello.FileTest@2cbb3d47]" started-at="2022-10-01T13:27:32 IDT" name="CompareFiles" finished-at="2022-10-01T13:27:32 IDT" depends-on-methods="Trello.FileTest.DownloadFile" duration-ms="0" status="SKIP">
+        <test-method signature="CompareFiles()[pri:0, instance:Trello.FileTest@2cbb3d47]" started-at="2022-10-01T14:26:38 IDT" name="CompareFiles" finished-at="2022-10-01T14:26:38 IDT" depends-on-methods="Trello.FileTest.DownloadFile" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method Trello.FileTest.CompareFiles() on instance Trello.FileTest@2cbb3d47 depends on not successfully finished methods 
@@ -175,60 +146,16 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CompareFiles -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Trello.FileTest@2cbb3d47]" started-at="2022-10-01T13:27:32 IDT" name="tearDown" finished-at="2022-10-01T13:27:35 IDT" duration-ms="2403" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Trello.FileTest -->
-    </test> <!-- Chrome -->
-    <test started-at="2022-10-01T13:27:12 IDT" name="edge" finished-at="2022-10-01T13:27:35 IDT" duration-ms="22558">
-      <class name="Trello.FileTest">
-        <test-method is-config="true" signature="getBrowserNameFromTestNG(java.lang.String)[pri:0, instance:Trello.FileTest@77167fb7]" started-at="2022-10-01T13:27:12 IDT" name="getBrowserNameFromTestNG" finished-at="2022-10-01T13:27:12 IDT" duration-ms="23" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getBrowserNameFromTestNG -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Trello.FileTest@77167fb7]" started-at="2022-10-01T13:27:12 IDT" name="setUp" finished-at="2022-10-01T13:27:26 IDT" duration-ms="13732" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="CreateCard()[pri:0, instance:Trello.FileTest@77167fb7]" started-at="2022-10-01T13:27:26 IDT" name="CreateCard" finished-at="2022-10-01T13:27:32 IDT" duration-ms="6343" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="DownloadFile()[pri:0, instance:Trello.FileTest@2cbb3d47]" started-at="2022-10-01T14:26:38 IDT" name="DownloadFile" finished-at="2022-10-01T14:26:38 IDT" depends-on-methods="Trello.FileTest.UploadFile" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Unable to find element with locator By.xpath: //a[contains(@href,'testworkspace')]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-M0AGGPF6', ip: '192.168.168.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: driver.version: RemoteWebDriver]]>
+              <![CDATA[Method Trello.FileTest.DownloadFile() on instance Trello.FileTest@2cbb3d47 depends on not successfully finished methods 
+[Trello.FileTest.UploadFile() on instance Trello.FileTest@2cbb3d47]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //a[contains(@href,'testworkspace')]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-M0AGGPF6', ip: '192.168.168.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at Pages.Trello.MainPage.goToBoardsPage(MainPage.java:28)
-at Trello.FileTest.CreateCard(FileTest.java:80)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+              <![CDATA[java.lang.Throwable: Method Trello.FileTest.DownloadFile() on instance Trello.FileTest@2cbb3d47 depends on not successfully finished methods 
+[Trello.FileTest.UploadFile() on instance Trello.FileTest@2cbb3d47]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
@@ -243,11 +170,164 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadFile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Trello.FileTest@2cbb3d47]" started-at="2022-10-01T14:26:38 IDT" name="tearDown" finished-at="2022-10-01T14:26:38 IDT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Trello.FileTest -->
+    </test> <!-- Chrome -->
+    <test started-at="2022-10-01T14:26:32 IDT" name="edge" finished-at="2022-10-01T14:26:43 IDT" duration-ms="10798">
+      <class name="Trello.FileTest">
+        <test-method is-config="true" signature="getBrowserNameFromTestNG(java.lang.String)[pri:0, instance:Trello.FileTest@77167fb7]" started-at="2022-10-01T14:26:32 IDT" name="getBrowserNameFromTestNG" finished-at="2022-10-01T14:26:32 IDT" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowserNameFromTestNG -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Trello.FileTest@77167fb7]" started-at="2022-10-01T14:26:32 IDT" name="setUp" finished-at="2022-10-01T14:26:43 IDT" duration-ms="10760" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=105.0.1343.53)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-M0AGGPF6', ip: '192.168.168.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d0d4962dfcc648aa4969a6c7fd7ed024, findElement {using=name, value=user}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 105.0.1343.53, ms:edgeOptions: {debuggerAddress: localhost:51996}, msedge: {msedgedriverVersion: 104.0.1293.70 (6709c341bd06..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51996/devtoo..., se:cdpVersion: 105.0.1343.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d0d4962dfcc648aa4969a6c7fd7ed024]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=105.0.1343.53)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-M0AGGPF6', ip: '192.168.168.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d0d4962dfcc648aa4969a6c7fd7ed024, findElement {using=name, value=user}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 105.0.1343.53, ms:edgeOptions: {debuggerAddress: localhost:51996}, msedge: {msedgedriverVersion: 104.0.1293.70 (6709c341bd06..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51996/devtoo..., se:cdpVersion: 105.0.1343.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d0d4962dfcc648aa4969a6c7fd7ed024
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at Pages.Trello.LoginPage.Login(LoginPage.java:18)
+at Trello.FileTest.setUp(FileTest.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CreateCard()[pri:0, instance:Trello.FileTest@77167fb7]" started-at="2022-10-01T14:26:43 IDT" name="CreateCard" finished-at="2022-10-01T14:26:43 IDT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=105.0.1343.53)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-M0AGGPF6', ip: '192.168.168.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d0d4962dfcc648aa4969a6c7fd7ed024, findElement {using=name, value=user}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 105.0.1343.53, ms:edgeOptions: {debuggerAddress: localhost:51996}, msedge: {msedgedriverVersion: 104.0.1293.70 (6709c341bd06..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51996/devtoo..., se:cdpVersion: 105.0.1343.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d0d4962dfcc648aa4969a6c7fd7ed024]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=105.0.1343.53)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-M0AGGPF6', ip: '192.168.168.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d0d4962dfcc648aa4969a6c7fd7ed024, findElement {using=name, value=user}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 105.0.1343.53, ms:edgeOptions: {debuggerAddress: localhost:51996}, msedge: {msedgedriverVersion: 104.0.1293.70 (6709c341bd06..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51996/devtoo..., se:cdpVersion: 105.0.1343.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d0d4962dfcc648aa4969a6c7fd7ed024
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at Pages.Trello.LoginPage.Login(LoginPage.java:18)
+at Trello.FileTest.setUp(FileTest.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateCard -->
-        <test-method signature="UploadFile()[pri:0, instance:Trello.FileTest@77167fb7]" started-at="2022-10-01T13:27:32 IDT" name="UploadFile" finished-at="2022-10-01T13:27:32 IDT" depends-on-methods="Trello.FileTest.CreateCard" duration-ms="0" status="SKIP">
+        <test-method signature="UploadFile()[pri:0, instance:Trello.FileTest@77167fb7]" started-at="2022-10-01T14:26:43 IDT" name="UploadFile" finished-at="2022-10-01T14:26:43 IDT" depends-on-methods="Trello.FileTest.CreateCard" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method Trello.FileTest.UploadFile() on instance Trello.FileTest@77167fb7 depends on not successfully finished methods 
@@ -275,7 +355,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UploadFile -->
-        <test-method signature="DownloadFile()[pri:0, instance:Trello.FileTest@77167fb7]" started-at="2022-10-01T13:27:32 IDT" name="DownloadFile" finished-at="2022-10-01T13:27:32 IDT" depends-on-methods="Trello.FileTest.UploadFile" duration-ms="0" status="SKIP">
+        <test-method signature="DownloadFile()[pri:0, instance:Trello.FileTest@77167fb7]" started-at="2022-10-01T14:26:43 IDT" name="DownloadFile" finished-at="2022-10-01T14:26:43 IDT" depends-on-methods="Trello.FileTest.UploadFile" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method Trello.FileTest.DownloadFile() on instance Trello.FileTest@77167fb7 depends on not successfully finished methods 
@@ -303,7 +383,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DownloadFile -->
-        <test-method signature="CompareFiles()[pri:0, instance:Trello.FileTest@77167fb7]" started-at="2022-10-01T13:27:32 IDT" name="CompareFiles" finished-at="2022-10-01T13:27:32 IDT" depends-on-methods="Trello.FileTest.DownloadFile" duration-ms="0" status="SKIP">
+        <test-method signature="CompareFiles()[pri:0, instance:Trello.FileTest@77167fb7]" started-at="2022-10-01T14:26:43 IDT" name="CompareFiles" finished-at="2022-10-01T14:26:43 IDT" depends-on-methods="Trello.FileTest.DownloadFile" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method Trello.FileTest.CompareFiles() on instance Trello.FileTest@77167fb7 depends on not successfully finished methods 
@@ -331,66 +411,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CompareFiles -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Trello.FileTest@77167fb7]" started-at="2022-10-01T13:27:32 IDT" name="tearDown" finished-at="2022-10-01T13:27:35 IDT" duration-ms="2407" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: MicrosoftEdge=105.0.1343.53)
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-M0AGGPF6', ip: '192.168.168.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [d24102127fe5c65e51acbb38d2656be8, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 105.0.1343.53, ms:edgeOptions: {debuggerAddress: localhost:64607}, msedge: {msedgedriverVersion: 104.0.1293.70 (6709c341bd06..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64607/devtoo..., se:cdpVersion: 105.0.1343.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d24102127fe5c65e51acbb38d2656be8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: MicrosoftEdge=105.0.1343.53)
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-M0AGGPF6', ip: '192.168.168.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [d24102127fe5c65e51acbb38d2656be8, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 105.0.1343.53, ms:edgeOptions: {debuggerAddress: localhost:64607}, msedge: {msedgedriverVersion: 104.0.1293.70 (6709c341bd06..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64607/devtoo..., se:cdpVersion: 105.0.1343.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d24102127fe5c65e51acbb38d2656be8
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:432)
-at Trello.FileTest.tearDown(FileTest.java:72)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:222)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:131)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Trello.FileTest@77167fb7]" started-at="2022-10-01T14:26:43 IDT" name="tearDown" finished-at="2022-10-01T14:26:43 IDT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -1,246 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="0" failed="1" skipped="7">
+<testng-results ignored="0" total="4" passed="0" failed="0" skipped="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-01T11:52:17 IDT" name="Cross Browser Test" finished-at="2022-10-01T11:52:47 IDT" duration-ms="30179">
+  <suite started-at="2022-10-01T14:29:49 IDT" name="Cross Browser Test" finished-at="2022-10-01T14:29:55 IDT" duration-ms="6093">
     <groups>
     </groups>
-    <test started-at="2022-10-01T11:52:17 IDT" name="edge" finished-at="2022-10-01T11:52:40 IDT" duration-ms="23320">
+    <test started-at="2022-10-01T14:29:49 IDT" name="Chrome" finished-at="2022-10-01T14:29:55 IDT" duration-ms="6093">
       <class name="Trello.FileTest">
-        <test-method is-config="true" signature="getBrowserNameFromTestNG(java.lang.String)[pri:0, instance:Trello.FileTest@1fd386c3]" started-at="2022-10-01T11:52:17 IDT" name="getBrowserNameFromTestNG" finished-at="2022-10-01T11:52:17 IDT" duration-ms="74" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getBrowserNameFromTestNG -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Trello.FileTest@1fd386c3]" started-at="2022-10-01T11:52:17 IDT" name="setUp" finished-at="2022-10-01T11:52:40 IDT" duration-ms="23099" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: MicrosoftEdge=105.0.1343.53)
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-M0AGGPF6', ip: '192.168.168.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [2b57a76e6badabea03b36448c447d3b1, clickElement {id=fe7559af-f238-4883-a2ce-5d63b7afaee6}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 105.0.1343.53, ms:edgeOptions: {debuggerAddress: localhost:58665}, msedge: {msedgedriverVersion: 104.0.1293.70 (6709c341bd06..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58665/devtoo..., se:cdpVersion: 105.0.1343.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (2b57a76e6badabea03b36448c447d3b1)] -> xpath: /html/body/div[1]/header[1]/div/div[1]/div[2]/a[1]]
-Session ID: 2b57a76e6badabea03b36448c447d3b1]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: MicrosoftEdge=105.0.1343.53)
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-M0AGGPF6', ip: '192.168.168.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [2b57a76e6badabea03b36448c447d3b1, clickElement {id=fe7559af-f238-4883-a2ce-5d63b7afaee6}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 105.0.1343.53, ms:edgeOptions: {debuggerAddress: localhost:58665}, msedge: {msedgedriverVersion: 104.0.1293.70 (6709c341bd06..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58665/devtoo..., se:cdpVersion: 105.0.1343.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (2b57a76e6badabea03b36448c447d3b1)] -> xpath: /html/body/div[1]/header[1]/div/div[1]/div[2]/a[1]]
-Session ID: 2b57a76e6badabea03b36448c447d3b1
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-at Pages.Trello.HomePage.ClickLogin(HomePage.java:22)
-at Trello.FileTest.setUp(FileTest.java:63)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="CreateCard()[pri:0, instance:Trello.FileTest@1fd386c3]" started-at="2022-10-01T11:52:40 IDT" name="CreateCard" finished-at="2022-10-01T11:52:40 IDT" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: MicrosoftEdge=105.0.1343.53)
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-M0AGGPF6', ip: '192.168.168.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [2b57a76e6badabea03b36448c447d3b1, clickElement {id=fe7559af-f238-4883-a2ce-5d63b7afaee6}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 105.0.1343.53, ms:edgeOptions: {debuggerAddress: localhost:58665}, msedge: {msedgedriverVersion: 104.0.1293.70 (6709c341bd06..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58665/devtoo..., se:cdpVersion: 105.0.1343.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (2b57a76e6badabea03b36448c447d3b1)] -> xpath: /html/body/div[1]/header[1]/div/div[1]/div[2]/a[1]]
-Session ID: 2b57a76e6badabea03b36448c447d3b1]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: MicrosoftEdge=105.0.1343.53)
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-M0AGGPF6', ip: '192.168.168.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [2b57a76e6badabea03b36448c447d3b1, clickElement {id=fe7559af-f238-4883-a2ce-5d63b7afaee6}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 105.0.1343.53, ms:edgeOptions: {debuggerAddress: localhost:58665}, msedge: {msedgedriverVersion: 104.0.1293.70 (6709c341bd06..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58665/devtoo..., se:cdpVersion: 105.0.1343.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (2b57a76e6badabea03b36448c447d3b1)] -> xpath: /html/body/div[1]/header[1]/div/div[1]/div[2]/a[1]]
-Session ID: 2b57a76e6badabea03b36448c447d3b1
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-at Pages.Trello.HomePage.ClickLogin(HomePage.java:22)
-at Trello.FileTest.setUp(FileTest.java:63)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateCard -->
-        <test-method signature="UploadFile()[pri:0, instance:Trello.FileTest@1fd386c3]" started-at="2022-10-01T11:52:40 IDT" name="UploadFile" finished-at="2022-10-01T11:52:40 IDT" depends-on-methods="Trello.FileTest.CreateCard" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method Trello.FileTest.UploadFile() on instance Trello.FileTest@1fd386c3 depends on not successfully finished methods 
-[Trello.FileTest.CreateCard() on instance Trello.FileTest@1fd386c3]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method Trello.FileTest.UploadFile() on instance Trello.FileTest@1fd386c3 depends on not successfully finished methods 
-[Trello.FileTest.CreateCard() on instance Trello.FileTest@1fd386c3]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UploadFile -->
-        <test-method signature="DownloadFile()[pri:0, instance:Trello.FileTest@1fd386c3]" started-at="2022-10-01T11:52:40 IDT" name="DownloadFile" finished-at="2022-10-01T11:52:40 IDT" depends-on-methods="Trello.FileTest.UploadFile" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method Trello.FileTest.DownloadFile() on instance Trello.FileTest@1fd386c3 depends on not successfully finished methods 
-[Trello.FileTest.UploadFile() on instance Trello.FileTest@1fd386c3]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method Trello.FileTest.DownloadFile() on instance Trello.FileTest@1fd386c3 depends on not successfully finished methods 
-[Trello.FileTest.UploadFile() on instance Trello.FileTest@1fd386c3]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DownloadFile -->
-        <test-method signature="CompareFiles()[pri:0, instance:Trello.FileTest@1fd386c3]" started-at="2022-10-01T11:52:40 IDT" name="CompareFiles" finished-at="2022-10-01T11:52:40 IDT" depends-on-methods="Trello.FileTest.DownloadFile" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method Trello.FileTest.CompareFiles() on instance Trello.FileTest@1fd386c3 depends on not successfully finished methods 
-[Trello.FileTest.DownloadFile() on instance Trello.FileTest@1fd386c3]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method Trello.FileTest.CompareFiles() on instance Trello.FileTest@1fd386c3 depends on not successfully finished methods 
-[Trello.FileTest.DownloadFile() on instance Trello.FileTest@1fd386c3]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CompareFiles -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Trello.FileTest@1fd386c3]" started-at="2022-10-01T11:52:40 IDT" name="tearDown" finished-at="2022-10-01T11:52:40 IDT" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Trello.FileTest -->
-    </test> <!-- edge -->
-    <test started-at="2022-10-01T11:52:17 IDT" name="Chrome" finished-at="2022-10-01T11:52:47 IDT" duration-ms="30179">
-      <class name="Trello.FileTest">
-        <test-method is-config="true" signature="getBrowserNameFromTestNG(java.lang.String)[pri:0, instance:Trello.FileTest@2237bada]" started-at="2022-10-01T11:52:17 IDT" name="getBrowserNameFromTestNG" finished-at="2022-10-01T11:52:17 IDT" duration-ms="74" status="PASS">
+        <test-method is-config="true" signature="getBrowserNameFromTestNG(java.lang.String)[pri:0, instance:Trello.FileTest@3527942a]" started-at="2022-10-01T14:29:49 IDT" name="getBrowserNameFromTestNG" finished-at="2022-10-01T14:29:49 IDT" duration-ms="14" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -251,63 +18,26 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBrowserNameFromTestNG -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Trello.FileTest@2237bada]" started-at="2022-10-01T11:52:17 IDT" name="setUp" finished-at="2022-10-01T11:52:35 IDT" duration-ms="17428" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="CreateCard()[pri:0, instance:Trello.FileTest@2237bada]" started-at="2022-10-01T11:52:35 IDT" name="CreateCard" finished-at="2022-10-01T11:52:45 IDT" duration-ms="10084" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Trello.FileTest@3527942a]" started-at="2022-10-01T14:29:49 IDT" name="setUp" finished-at="2022-10-01T14:29:55 IDT" duration-ms="5997" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href,'testworkspace')]"}
-  (Session info: chrome=105.0.5195.127)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-M0AGGPF6', ip: '192.168.168.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6b3f00b8bf420209725e3f3e0d767783, findElement {using=xpath, value=//a[contains(@href,'testworkspace')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.29 (eff877e18f76..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58653}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58653/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6b3f00b8bf420209725e3f3e0d767783]]>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href,'testworkspace')]"}
-  (Session info: chrome=105.0.5195.127)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-M0AGGPF6', ip: '192.168.168.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6b3f00b8bf420209725e3f3e0d767783, findElement {using=xpath, value=//a[contains(@href,'testworkspace')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.29 (eff877e18f76..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58653}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58653/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6b3f00b8bf420209725e3f3e0d767783
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at Pages.Trello.MainPage.goToBoardsPage(MainPage.java:28)
-at Trello.FileTest.CreateCard(FileTest.java:80)
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+at Pages.Trello.AtlassianLogin.Login(AtlassianLogin.java:21)
+at Trello.FileTest.setUp(FileTest.java:67)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:806)
 at org.testng.TestRunner.run(TestRunner.java:601)
@@ -320,19 +50,55 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CreateCard()[pri:0, instance:Trello.FileTest@3527942a]" started-at="2022-10-01T14:29:55 IDT" name="CreateCard" finished-at="2022-10-01T14:29:55 IDT" duration-ms="1" status="SKIP">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+at Pages.Trello.AtlassianLogin.Login(AtlassianLogin.java:21)
+at Trello.FileTest.setUp(FileTest.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateCard -->
-        <test-method signature="UploadFile()[pri:0, instance:Trello.FileTest@2237bada]" started-at="2022-10-01T11:52:45 IDT" name="UploadFile" finished-at="2022-10-01T11:52:45 IDT" depends-on-methods="Trello.FileTest.CreateCard" duration-ms="0" status="SKIP">
+        <test-method signature="UploadFile()[pri:0, instance:Trello.FileTest@3527942a]" started-at="2022-10-01T14:29:55 IDT" name="UploadFile" finished-at="2022-10-01T14:29:55 IDT" depends-on-methods="Trello.FileTest.CreateCard" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method Trello.FileTest.UploadFile() on instance Trello.FileTest@2237bada depends on not successfully finished methods 
-[Trello.FileTest.CreateCard() on instance Trello.FileTest@2237bada]]]>
+              <![CDATA[Method Trello.FileTest.UploadFile() on instance Trello.FileTest@3527942a depends on not successfully finished methods 
+[Trello.FileTest.CreateCard() on instance Trello.FileTest@3527942a]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method Trello.FileTest.UploadFile() on instance Trello.FileTest@2237bada depends on not successfully finished methods 
-[Trello.FileTest.CreateCard() on instance Trello.FileTest@2237bada]
+              <![CDATA[java.lang.Throwable: Method Trello.FileTest.UploadFile() on instance Trello.FileTest@3527942a depends on not successfully finished methods 
+[Trello.FileTest.CreateCard() on instance Trello.FileTest@3527942a]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -352,15 +118,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UploadFile -->
-        <test-method signature="DownloadFile()[pri:0, instance:Trello.FileTest@2237bada]" started-at="2022-10-01T11:52:45 IDT" name="DownloadFile" finished-at="2022-10-01T11:52:45 IDT" depends-on-methods="Trello.FileTest.UploadFile" duration-ms="0" status="SKIP">
+        <test-method signature="DownloadFile()[pri:0, instance:Trello.FileTest@3527942a]" started-at="2022-10-01T14:29:55 IDT" name="DownloadFile" finished-at="2022-10-01T14:29:55 IDT" depends-on-methods="Trello.FileTest.UploadFile" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method Trello.FileTest.DownloadFile() on instance Trello.FileTest@2237bada depends on not successfully finished methods 
-[Trello.FileTest.UploadFile() on instance Trello.FileTest@2237bada]]]>
+              <![CDATA[Method Trello.FileTest.DownloadFile() on instance Trello.FileTest@3527942a depends on not successfully finished methods 
+[Trello.FileTest.UploadFile() on instance Trello.FileTest@3527942a]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method Trello.FileTest.DownloadFile() on instance Trello.FileTest@2237bada depends on not successfully finished methods 
-[Trello.FileTest.UploadFile() on instance Trello.FileTest@2237bada]
+              <![CDATA[java.lang.Throwable: Method Trello.FileTest.DownloadFile() on instance Trello.FileTest@3527942a depends on not successfully finished methods 
+[Trello.FileTest.UploadFile() on instance Trello.FileTest@3527942a]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -380,15 +146,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DownloadFile -->
-        <test-method signature="CompareFiles()[pri:0, instance:Trello.FileTest@2237bada]" started-at="2022-10-01T11:52:45 IDT" name="CompareFiles" finished-at="2022-10-01T11:52:45 IDT" depends-on-methods="Trello.FileTest.DownloadFile" duration-ms="0" status="SKIP">
+        <test-method signature="CompareFiles()[pri:0, instance:Trello.FileTest@3527942a]" started-at="2022-10-01T14:29:55 IDT" name="CompareFiles" finished-at="2022-10-01T14:29:55 IDT" depends-on-methods="Trello.FileTest.DownloadFile" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method Trello.FileTest.CompareFiles() on instance Trello.FileTest@2237bada depends on not successfully finished methods 
-[Trello.FileTest.DownloadFile() on instance Trello.FileTest@2237bada]]]>
+              <![CDATA[Method Trello.FileTest.CompareFiles() on instance Trello.FileTest@3527942a depends on not successfully finished methods 
+[Trello.FileTest.DownloadFile() on instance Trello.FileTest@3527942a]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method Trello.FileTest.CompareFiles() on instance Trello.FileTest@2237bada depends on not successfully finished methods 
-[Trello.FileTest.DownloadFile() on instance Trello.FileTest@2237bada]
+              <![CDATA[java.lang.Throwable: Method Trello.FileTest.CompareFiles() on instance Trello.FileTest@3527942a depends on not successfully finished methods 
+[Trello.FileTest.DownloadFile() on instance Trello.FileTest@3527942a]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -408,7 +174,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CompareFiles -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Trello.FileTest@2237bada]" started-at="2022-10-01T11:52:45 IDT" name="tearDown" finished-at="2022-10-01T11:52:47 IDT" duration-ms="2442" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Trello.FileTest@3527942a]" started-at="2022-10-01T14:29:55 IDT" name="tearDown" finished-at="2022-10-01T14:29:55 IDT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
