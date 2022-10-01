@@ -16,7 +16,7 @@ public class AtlassianLogin {
 public void Login() {
 		WebElement loginButton = drvr.findElement(By.id("login-submit"));
 		WebElement loginPassword = drvr.findElement(By.name("password"));
-		loginPassword.sendKeys("SECRET");
+		loginPassword.sendKeys(System.getenv("trello_password"));
 		loginButton.click();
 		drvr.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
