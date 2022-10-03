@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/4</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Oct 01 14:29:49 IDT 2022</td>
+<td>Started on:</td><td>Sat Oct 01 15:28:24 IDT 2022</td>
 </tr>
-<tr><td>Total time:</td><td>6 seconds (6093 ms)</td>
+<tr><td>Total time:</td><td>9 seconds (9438 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,19 +77,17 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='Trello.FileTest.setUp()'><b>setUp</b><br>Test class: Trello.FileTest</td>
-<td><div><pre>java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
-	at Pages.Trello.AtlassianLogin.Login(AtlassianLogin.java:21)
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.toString()&quot; because the return value of &quot;java.lang.System.getenv(String)&quot; is null
+	at Pages.Trello.AtlassianLogin.Login(AtlassianLogin.java:20)
 	at Trello.FileTest.setUp(FileTest.java:67)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1962306928", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1962306928'><pre>java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
-	at Pages.Trello.AtlassianLogin.Login(AtlassianLogin.java:21)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1649702521", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1649702521'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.toString()&quot; because the return value of &quot;java.lang.System.getenv(String)&quot; is null
+	at Pages.Trello.AtlassianLogin.Login(AtlassianLogin.java:20)
 	at Trello.FileTest.setUp(FileTest.java:67)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -112,7 +110,7 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 </pre></div></td>
-<td>5</td>
+<td>9</td>
 <td>Trello.FileTest@3527942a</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
@@ -138,20 +136,46 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='Trello.FileTest.CompareFiles()'><b>CompareFiles</b><br>Test class: Trello.FileTest</td>
+<td><div><pre>java.lang.Throwable: Method Trello.FileTest.CompareFiles() on instance Trello.FileTest@3527942a depends on not successfully finished methods 
+[Trello.FileTest.DownloadFile() on instance Trello.FileTest@3527942a]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace579290615", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace579290615'><pre>java.lang.Throwable: Method Trello.FileTest.CompareFiles() on instance Trello.FileTest@3527942a depends on not successfully finished methods 
+[Trello.FileTest.DownloadFile() on instance Trello.FileTest@3527942a]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>Trello.FileTest@3527942a</td></tr>
+<tr>
 <td title='Trello.FileTest.CreateCard()'><b>CreateCard</b><br>Test class: Trello.FileTest</td>
-<td><div><pre>java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
-	at Pages.Trello.AtlassianLogin.Login(AtlassianLogin.java:21)
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.toString()&quot; because the return value of &quot;java.lang.System.getenv(String)&quot; is null
+	at Pages.Trello.AtlassianLogin.Login(AtlassianLogin.java:20)
 	at Trello.FileTest.setUp(FileTest.java:67)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1188476245", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1188476245'><pre>java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
-	at Pages.Trello.AtlassianLogin.Login(AtlassianLogin.java:21)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1300763261", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1300763261'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.toString()&quot; because the return value of &quot;java.lang.System.getenv(String)&quot; is null
+	at Pages.Trello.AtlassianLogin.Login(AtlassianLogin.java:20)
 	at Trello.FileTest.setUp(FileTest.java:67)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -177,34 +201,6 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>Trello.FileTest@3527942a</td></tr>
 <tr>
-<td title='Trello.FileTest.UploadFile()'><b>UploadFile</b><br>Test class: Trello.FileTest</td>
-<td><div><pre>java.lang.Throwable: Method Trello.FileTest.UploadFile() on instance Trello.FileTest@3527942a depends on not successfully finished methods 
-[Trello.FileTest.CreateCard() on instance Trello.FileTest@3527942a]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace240196428", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace240196428'><pre>java.lang.Throwable: Method Trello.FileTest.UploadFile() on instance Trello.FileTest@3527942a depends on not successfully finished methods 
-[Trello.FileTest.CreateCard() on instance Trello.FileTest@3527942a]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-</pre></div></td>
-<td>0</td>
-<td>Trello.FileTest@3527942a</td></tr>
-<tr>
 <td title='Trello.FileTest.DownloadFile()'><b>DownloadFile</b><br>Test class: Trello.FileTest</td>
 <td><div><pre>java.lang.Throwable: Method Trello.FileTest.DownloadFile() on instance Trello.FileTest@3527942a depends on not successfully finished methods 
 [Trello.FileTest.UploadFile() on instance Trello.FileTest@3527942a]
@@ -213,8 +209,8 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace55912040", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace55912040'><pre>java.lang.Throwable: Method Trello.FileTest.DownloadFile() on instance Trello.FileTest@3527942a depends on not successfully finished methods 
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace951872980", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace951872980'><pre>java.lang.Throwable: Method Trello.FileTest.DownloadFile() on instance Trello.FileTest@3527942a depends on not successfully finished methods 
 [Trello.FileTest.UploadFile() on instance Trello.FileTest@3527942a]
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
@@ -233,17 +229,17 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>Trello.FileTest@3527942a</td></tr>
 <tr>
-<td title='Trello.FileTest.CompareFiles()'><b>CompareFiles</b><br>Test class: Trello.FileTest</td>
-<td><div><pre>java.lang.Throwable: Method Trello.FileTest.CompareFiles() on instance Trello.FileTest@3527942a depends on not successfully finished methods 
-[Trello.FileTest.DownloadFile() on instance Trello.FileTest@3527942a]
+<td title='Trello.FileTest.UploadFile()'><b>UploadFile</b><br>Test class: Trello.FileTest</td>
+<td><div><pre>java.lang.Throwable: Method Trello.FileTest.UploadFile() on instance Trello.FileTest@3527942a depends on not successfully finished methods 
+[Trello.FileTest.CreateCard() on instance Trello.FileTest@3527942a]
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1550978828", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1550978828'><pre>java.lang.Throwable: Method Trello.FileTest.CompareFiles() on instance Trello.FileTest@3527942a depends on not successfully finished methods 
-[Trello.FileTest.DownloadFile() on instance Trello.FileTest@3527942a]
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace986630144", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace986630144'><pre>java.lang.Throwable: Method Trello.FileTest.UploadFile() on instance Trello.FileTest@3527942a depends on not successfully finished methods 
+[Trello.FileTest.CreateCard() on instance Trello.FileTest@3527942a]
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)

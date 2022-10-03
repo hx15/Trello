@@ -56,7 +56,7 @@ public class FileTest  {
  @BeforeClass
  public void setUp(){
      String browser = browserName;
-     drvr = OpenBrowsers.openBrowser(browser);
+     drvr = OpenBrowsers.openchromeWithOptions();
      drvr.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	 drvr.get("https://trello.com");
 	 HomePage homePage = new Pages.Trello.HomePage(drvr);
@@ -79,11 +79,9 @@ public class FileTest  {
 	 MainPage mainPage = new MainPage(drvr);
 	 mainPage.goToBoardsPage("testworkspace");
 	 BoardPage boardPage = new BoardPage(drvr);
-	 Thread.sleep(3000);
 	 boardPage.createBoard("testingboard");
 	 boardPage.createCard("testingcard");
 	 boardPage.getIntoCard("testingcard");
-	 CardPage cardPage = new CardPage(drvr);
 	 
  }
  
@@ -103,12 +101,12 @@ public void DownloadFile () {
  }
 
 @Test(dependsOnMethods = "DownloadFile")
-public void CompareFiles () throws NoSuchAlgorithmException, IOException {
+public void CompareFiles () throws NoSuchAlgorithmException, IOException, InterruptedException {
 	// check check sum of downloaded and uploaded file
 	 MessageDigest mdigest = MessageDigest.getInstance("MD5");
 	 String currentWorkingDirectoryString = System.getProperty("user.dir");
 	 uploadedFile = new File(currentWorkingDirectoryString + "\\input.csv");
-	 downLoadedFile = new File(System.getProperty("user.home") + "\\Downloads\\input.csv");
+	 downLoadedFile = new File(currentWorkingDirectoryString + "\\downloads\\input.csv");
 	 String uploadedFileChecksum = testutils.checksum(mdigest, uploadedFile);
 	 String downloadedFileChecksum = testutils.checksum(mdigest, downLoadedFile);
 	 System.out.println("Uploaded file checksum: " + uploadedFileChecksum);

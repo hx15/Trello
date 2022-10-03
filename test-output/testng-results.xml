@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="0" failed="0" skipped="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-01T14:29:49 IDT" name="Cross Browser Test" finished-at="2022-10-01T14:29:55 IDT" duration-ms="6093">
+  <suite started-at="2022-10-01T15:28:24 IDT" name="Cross Browser Test" finished-at="2022-10-01T15:28:33 IDT" duration-ms="9438">
     <groups>
     </groups>
-    <test started-at="2022-10-01T14:29:49 IDT" name="Chrome" finished-at="2022-10-01T14:29:55 IDT" duration-ms="6093">
+    <test started-at="2022-10-01T15:28:24 IDT" name="Chrome" finished-at="2022-10-01T15:28:33 IDT" duration-ms="9438">
       <class name="Trello.FileTest">
-        <test-method is-config="true" signature="getBrowserNameFromTestNG(java.lang.String)[pri:0, instance:Trello.FileTest@3527942a]" started-at="2022-10-01T14:29:49 IDT" name="getBrowserNameFromTestNG" finished-at="2022-10-01T14:29:49 IDT" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="getBrowserNameFromTestNG(java.lang.String)[pri:0, instance:Trello.FileTest@3527942a]" started-at="2022-10-01T15:28:24 IDT" name="getBrowserNameFromTestNG" finished-at="2022-10-01T15:28:24 IDT" duration-ms="29" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBrowserNameFromTestNG -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Trello.FileTest@3527942a]" started-at="2022-10-01T14:29:49 IDT" name="setUp" finished-at="2022-10-01T14:29:55 IDT" duration-ms="5997" status="FAIL">
-          <exception class="java.lang.IllegalArgumentException">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Trello.FileTest@3527942a]" started-at="2022-10-01T15:28:24 IDT" name="setUp" finished-at="2022-10-01T15:28:33 IDT" duration-ms="9245" status="FAIL">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[Keys to send should be a not null CharSequence]]>
+              <![CDATA[Cannot invoke "String.toString()" because the return value of "java.lang.System.getenv(String)" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
-at Pages.Trello.AtlassianLogin.Login(AtlassianLogin.java:21)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toString()" because the return value of "java.lang.System.getenv(String)" is null
+at Pages.Trello.AtlassianLogin.Login(AtlassianLogin.java:20)
 at Trello.FileTest.setUp(FileTest.java:67)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -50,19 +49,18 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="CreateCard()[pri:0, instance:Trello.FileTest@3527942a]" started-at="2022-10-01T14:29:55 IDT" name="CreateCard" finished-at="2022-10-01T14:29:55 IDT" duration-ms="1" status="SKIP">
-          <exception class="java.lang.IllegalArgumentException">
+        <test-method signature="CreateCard()[pri:0, instance:Trello.FileTest@3527942a]" started-at="2022-10-01T15:28:33 IDT" name="CreateCard" finished-at="2022-10-01T15:28:33 IDT" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[Keys to send should be a not null CharSequence]]>
+              <![CDATA[Cannot invoke "String.toString()" because the return value of "java.lang.System.getenv(String)" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
-at Pages.Trello.AtlassianLogin.Login(AtlassianLogin.java:21)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toString()" because the return value of "java.lang.System.getenv(String)" is null
+at Pages.Trello.AtlassianLogin.Login(AtlassianLogin.java:20)
 at Trello.FileTest.setUp(FileTest.java:67)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -86,11 +84,11 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateCard -->
-        <test-method signature="UploadFile()[pri:0, instance:Trello.FileTest@3527942a]" started-at="2022-10-01T14:29:55 IDT" name="UploadFile" finished-at="2022-10-01T14:29:55 IDT" depends-on-methods="Trello.FileTest.CreateCard" duration-ms="0" status="SKIP">
+        <test-method signature="UploadFile()[pri:0, instance:Trello.FileTest@3527942a]" started-at="2022-10-01T15:28:33 IDT" name="UploadFile" finished-at="2022-10-01T15:28:33 IDT" depends-on-methods="Trello.FileTest.CreateCard" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method Trello.FileTest.UploadFile() on instance Trello.FileTest@3527942a depends on not successfully finished methods 
@@ -118,7 +116,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UploadFile -->
-        <test-method signature="DownloadFile()[pri:0, instance:Trello.FileTest@3527942a]" started-at="2022-10-01T14:29:55 IDT" name="DownloadFile" finished-at="2022-10-01T14:29:55 IDT" depends-on-methods="Trello.FileTest.UploadFile" duration-ms="0" status="SKIP">
+        <test-method signature="DownloadFile()[pri:0, instance:Trello.FileTest@3527942a]" started-at="2022-10-01T15:28:33 IDT" name="DownloadFile" finished-at="2022-10-01T15:28:33 IDT" depends-on-methods="Trello.FileTest.UploadFile" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method Trello.FileTest.DownloadFile() on instance Trello.FileTest@3527942a depends on not successfully finished methods 
@@ -146,7 +144,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DownloadFile -->
-        <test-method signature="CompareFiles()[pri:0, instance:Trello.FileTest@3527942a]" started-at="2022-10-01T14:29:55 IDT" name="CompareFiles" finished-at="2022-10-01T14:29:55 IDT" depends-on-methods="Trello.FileTest.DownloadFile" duration-ms="0" status="SKIP">
+        <test-method signature="CompareFiles()[pri:0, instance:Trello.FileTest@3527942a]" started-at="2022-10-01T15:28:33 IDT" name="CompareFiles" finished-at="2022-10-01T15:28:33 IDT" depends-on-methods="Trello.FileTest.DownloadFile" duration-ms="1" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method Trello.FileTest.CompareFiles() on instance Trello.FileTest@3527942a depends on not successfully finished methods 
@@ -174,7 +172,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CompareFiles -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Trello.FileTest@3527942a]" started-at="2022-10-01T14:29:55 IDT" name="tearDown" finished-at="2022-10-01T14:29:55 IDT" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Trello.FileTest@3527942a]" started-at="2022-10-01T15:28:33 IDT" name="tearDown" finished-at="2022-10-01T15:28:33 IDT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

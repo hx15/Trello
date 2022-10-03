@@ -14,9 +14,10 @@ import java.security.MessageDigest;
 public class testutils {
 
 	
-	public static String checksum(MessageDigest digest, File file) throws IOException {
+	public static String checksum(MessageDigest digest, File file) throws IOException, InterruptedException {
         // Get file input stream for reading the file
         // content
+		Thread.sleep(1000);
         FileInputStream fis = new FileInputStream(file);
  
         // Create byte array to read data in chunks

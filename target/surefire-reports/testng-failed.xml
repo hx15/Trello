@@ -17,20 +17,4 @@
       </class> <!-- Trello.FileTest -->
     </classes>
   </test> <!-- Chrome(failed) -->
-  <test thread-count="5" parallel="tests" name="edge(failed)" verbose="0">
-    <parameter name="browser" value="edge"/>
-    <classes>
-      <class name="Trello.FileTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="CompareFiles"/>
-          <include name="DownloadFile"/>
-          <include name="CreateCard"/>
-          <include name="getBrowserNameFromTestNG"/>
-          <include name="tearDown"/>
-          <include name="UploadFile"/>
-        </methods>
-      </class> <!-- Trello.FileTest -->
-    </classes>
-  </test> <!-- edge(failed) -->
 </suite> <!-- Failed suite [Cross Browser Test] -->

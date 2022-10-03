@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="11.135" tests="12" errors="0" skipped="10" failures="2">
+<testsuite name="TestSuite" time="17.02" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.4.1+1-LTS-2"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin"/>
     <property name="user.country.format" value="IL"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:/Users/LENOVO/git/TrelloSmartImport"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\LENOVO\git\TrelloSmartImport"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -25,22 +25,22 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:/maven/bin/m2.conf"/>
+    <property name="classworlds.conf" value="C:\maven\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\LENOVO\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\LENOVO\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\maven\bin;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
-    <property name="maven.conf" value="C:/maven/conf"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\maven\bin;C:\Program Files\Git\cmd;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="maven.conf" value="C:\maven/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="61.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:/maven/lib/jansi-native"/>
+    <property name="library.jansi.path" value="C:\maven\lib\jansi-native"/>
     <property name="user.home" value="C:\Users\LENOVO"/>
     <property name="user.timezone" value="Asia/Jerusalem"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.specification.version" value="17"/>
     <property name="user.name" value="LENOVO"/>
-    <property name="java.class.path" value="C:/maven/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.class.path" value="C:\maven\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
@@ -51,108 +51,18 @@
     <property name="java.version" value="17.0.4.1"/>
     <property name="native.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
     <property name="maven.home" value="C:\maven"/>
     <property name="file.separator" value="\"/>
     <property name="java.version.date" value="2022-08-18"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="setUp" classname="Trello.FileTest" time="6.827">
-    <failure message="Keys to send should be a not null CharSequence" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
-	at Pages.Trello.AtlassianLogin.Login(AtlassianLogin.java:19)
-	at Trello.FileTest.setUp(FileTest.java:67)
-</failure>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 104.0.5112.29 (eff877e18f767c77fef0481a1cba402c8cbad404-refs/branch-heads/5112@{#422}) on port 60014
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-Starting Microsoft Edge WebDriver 104.0.1293.70 (6709c341bd066316aaaf19f8a54f7cd676112f75) on port 49902
-To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
-
-Only local connections are allowed.
-Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
-
-ChromeDriver was started successfully.
-[1664623593.632][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
-Oct 01, 2022 2:26:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Oct 01, 2022 2:26:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 105, so returning the closest version found: 104
-Oct 01, 2022 2:26:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 105 of 104
-Microsoft Edge WebDriver was started successfully.
-[1664623595.153][WARNING]: This version of Microsoft Edge WebDriver has not been tested with Microsoft Edge version 105.
-Oct 01, 2022 2:26:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Oct 01, 2022 2:26:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 105, so returning the closest version found: 104
-Oct 01, 2022 2:26:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 105 of 104
-]]></system-err>
-  </testcase>
-  <testcase name="CreateCard" classname="Trello.FileTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="UploadFile" classname="Trello.FileTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="DownloadFile" classname="Trello.FileTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="CompareFiles" classname="Trello.FileTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="tearDown" classname="Trello.FileTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setUp" classname="Trello.FileTest" time="4.308">
-    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: MicrosoftEdge=105.0.1343.53)&#10;Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;&#10;System info: host: &apos;LAPTOP-M0AGGPF6&apos;, ip: &apos;192.168.168.227&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [d0d4962dfcc648aa4969a6c7fd7ed024, findElement {using=name, value=user}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 105.0.1343.53, ms:edgeOptions: {debuggerAddress: localhost:51996}, msedge: {msedgedriverVersion: 104.0.1293.70 (6709c341bd06..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51996/devtoo..., se:cdpVersion: 105.0.1343.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d0d4962dfcc648aa4969a6c7fd7ed024" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: MicrosoftEdge=105.0.1343.53)
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-M0AGGPF6', ip: '192.168.168.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [d0d4962dfcc648aa4969a6c7fd7ed024, findElement {using=name, value=user}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 105.0.1343.53, ms:edgeOptions: {debuggerAddress: localhost:51996}, msedge: {msedgedriverVersion: 104.0.1293.70 (6709c341bd06..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51996/devtoo..., se:cdpVersion: 105.0.1343.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d0d4962dfcc648aa4969a6c7fd7ed024
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at Pages.Trello.LoginPage.Login(LoginPage.java:18)
-	at Trello.FileTest.setUp(FileTest.java:65)
-</failure>
-  </testcase>
-  <testcase name="CreateCard" classname="Trello.FileTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="UploadFile" classname="Trello.FileTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="DownloadFile" classname="Trello.FileTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="CompareFiles" classname="Trello.FileTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="tearDown" classname="Trello.FileTest" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="CreateCard" classname="Trello.FileTest" time="12.698"/>
+  <testcase name="UploadFile" classname="Trello.FileTest" time="0.549"/>
+  <testcase name="DownloadFile" classname="Trello.FileTest" time="1.762"/>
+  <testcase name="CompareFiles" classname="Trello.FileTest" time="2.011"/>
 </testsuite>
